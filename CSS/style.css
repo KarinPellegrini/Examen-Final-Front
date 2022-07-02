@@ -1,0 +1,544 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.get_started{
+    color: white;
+    background-color: rgb(242, 95, 58);
+    height: 44px;
+    width: 9vw;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.get_started:hover{
+    opacity: 0.5;
+}
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+    padding: 6vh 10vw;
+}
+
+.encabezado img{
+    width: 148px;
+    height: 26px;
+}
+
+.encabezado ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.encabezado li{
+    padding-right:1vw;
+}
+
+.encabezado li :hover{
+    color:rgb(145, 139, 139);
+}
+
+header>.get_started{
+    position: relative;
+    top: -1vh;
+}
+
+.primera_seccion h2{
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 66px;
+    padding-bottom:2vh;
+}
+
+.primera_seccion{
+    width: 40vw;
+}
+
+.primera_seccion p{
+    width: 25vw;
+    font-weight: 500;
+    font-size: 16.5584px;
+    line-height: 157.1%;
+    padding-bottom:2vh;
+}
+
+.primeras2{
+    display: flex;
+    justify-content:center;
+    padding-bottom: 5vh;
+}
+
+.segunda{
+    display: flex;
+    justify-content:center;
+    padding-bottom: 5vh;
+}
+
+.primeras2 img{
+    width: 85%;
+    position:relative;
+    left: 15%;
+}
+
+.primera_seccion h3{
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 114.6%; 
+    width: 30vw; 
+    padding-bottom: 3vh;  
+}
+
+.cuarta_seccion{
+    display: flex;
+}
+
+.cuarta_seccion_text{
+    width:32vw;
+}
+
+.cuarta_seccion_text h5{
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 23px;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+}
+
+.cuarta_seccion_text p{
+    color:#B3B2B7;
+    padding-bottom: 2vh;
+}
+
+.numeracion div{
+    padding: 10px 25px;
+    width: 5vw;
+    background: #F3603B;
+    border-radius: 30px;
+    margin-bottom: 8.5vh;
+    margin-right: 1vw;
+    margin-left: 2vh;
+}
+
+.numeracion p{
+    color:white;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 143.75%;
+}
+
+.personas_principal h3{
+    font-weight: 700;
+    font-size: 39.2143px;
+    line-height: 156.6%;
+    text-align: center;
+    padding-bottom: 5vh;
+}
+
+
+.personas article{
+    border: 1px transparent;
+    background-color: #FAFAFA;
+    width: 26vw;
+    height: 219px;
+    position: relative;
+}
+
+.personas h5{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 16.0714px;
+    color: #3F4868;
+    padding-top: 56px;
+}
+
+.personas p{
+    color: #B9B9C1;
+    text-align: center;
+    padding-top: 21px;
+}
+
+.personas{
+    display: flex;
+    justify-content: center;
+}
+
+.personas_principal div{
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+}
+
+.circlePic{
+    width: 5vh;
+    bottom: 180px;
+    position: absolute;
+    left: 11vw;
+}
+
+.personas_principal{
+    padding-bottom: 180px;
+}
+
+.footer_primera_parte{
+    background-color: #F3603B;
+    display: flex;
+    justify-content: space-between;
+    padding: 64px 165px;
+}
+
+.footer_primera_parte p{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    width: 35vw;
+    color:white;
+}
+
+.footer_primera_parte a{
+    color: #F3613C;
+    background-color: white;
+    height: 44px;
+    width: 134px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    margin-top: 20px;
+}
+
+.footer_primera_parte a:hover{
+    opacity: 0.5;
+}
+
+.footer_segunda_parte{
+    background-color: #1E1E26;
+    display: flex;
+    justify-content: space-around;
+    padding: 65px 166px;
+}
+
+.redes_sociales{
+    fill:white;
+}
+
+.footer_segunda_parte li{
+    margin-bottom: 12px;
+}
+
+.footer_segunda_parte a{
+    color: white;
+}
+
+
+.footer_segunda_parte p{
+    font-weight: 500;
+    font-size: 12.5px;
+    line-height: 18px;
+    color: #8C8C94;
+}
+
+.footer_segunda_parte input{
+    height: 44px;
+    width: 201px;
+    border-radius: 50px;
+    border: solid rgba(255, 0, 0, 0.7);
+    color: rgba(255, 0, 0, 0.7);
+    font-size: 0.7rem;
+    padding-left: 20px;
+}
+
+.boton{
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 4vw;
+    height: 42px;
+
+    background: #F3603B;
+    border-radius: 50px;
+    font-size: 13.1806px;
+    line-height: 19px;
+    color:white;
+    cursor: pointer;
+
+}
+
+.boton:hover{
+    opacity: 0.5;
+}
+
+.iconos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.iconos svg :hover{
+    fill: #F3603B;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.form p{
+    text-align: right;
+}
+
+.iconos div{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menu_footer a:hover{
+    color:#F3603B
+}
+
+.menu_footer{
+    display: flex;
+    justify-content: space-between;
+    width: 20vw;
+}
+
+@media (max-width: 376px){
+    .encabezado ul{
+        display: none;
+    }
+
+    .encabezado{
+        display: flex;
+        justify-content: space-between;
+        padding: 3vh 10vw;
+    }
+
+    .encabezado img{
+        width: 30%;
+        height: 1vh;
+    }
+
+    .encabezado a{
+        display: none;
+    }
+
+    .primeras2{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .segunda{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .primeras2 img{
+        width: 85%;
+        position: static;
+        margin-left: 10%;
+    }
+
+    .primera_seccion{
+        padding-left: 5%;
+    }
+
+    .primera_seccion h2{
+        font-size: 2rem;
+        line-height: 120%;
+        width: 90vw;
+        text-align: center;
+    }
+
+    .primera_seccion p{
+        text-align: center;
+        font-size: 95%;
+        width: 85vw;
+        padding-left: 20%; 
+        color: grey;
+    }
+
+    .get_started_resp{
+        position: relative;
+        left: 77%;
+    }
+    .get_started{
+        width: 35.5vw;
+        height: 3.5vh;
+        text-align: center;
+        font-size: 80%;
+    }
+
+    .primera_seccion h3{
+        width: 90vw;
+        text-align: center;
+        line-height: 3vh;
+    }
+
+
+    .cuarta_seccion{
+        display: none;
+    }
+    
+    .numeracion div{
+        padding: 5px 25px;
+        width: 8vw;
+        margin-bottom: 9.5vh; 
+        margin-right: 1.5vw;
+        margin-left: 2vh;
+        margin-top: 0.7vh;
+
+    }
+
+    .numeracion p{
+        position: relative;
+        right: 2vw;
+    }
+
+
+/* personas */
+
+    .personas_principal{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 0;   
+    }
+
+    .personas_principal h3{
+        font-size: 2rem;
+        font-weight: 1000px;
+    }
+
+    .personas_principal article:nth-child(1){
+        display: none;
+    }
+
+    .personas_principal article:nth-child(3){
+        display: none;
+    }
+
+    .personas_principal article{
+        width: 90vw;
+    }
+
+    .personas_principal a{
+        margin-bottom: 4vh;
+    }
+
+    .circlePic{
+        margin-left: 25.3vw;
+    }
+
+    .dots{
+        fill: #F3603B;
+    }
+
+    /* footer */
+    .footer_primera_parte{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 7vh 11vw;
+        align-items: center;
+    }
+
+    .footer_primera_parte p{
+        width: 90vw;
+        text-align: center;
+        
+    }
+
+    .footer_segunda_parte{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 4vh 11vw;      
+    }
+
+    .iconos{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+    }
+
+
+    .menu_footer{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 2.5vh;
+        position: static;
+        margin-left: 20vw;
+    }
+
+    .menu_footer ul:nth-child(1){
+        padding-right: 20vw;
+        position: relative;
+        left:5.5vw;
+    }
+
+
+
+
+
+    .redes_sociales svg{
+        width: 7vw;
+        height: 50px;
+    }
+
+    .iconos img{
+        width: 40vw;
+        margin-left: 18vw;
+        padding-top: 1vh;
+        padding-bottom: 3vh;
+    }
+
+    .form p{
+        position: relative;
+        top: 333px;
+        right: 8vw;
+    }
+
+    .form input{
+        margin-bottom: 3vh;
+        width: 55vw;
+    }
+
+    .form button{
+        width: 20vw;
+    }
+
+
+}
+
+@media (min-width: 376px){
+    .hamburguesa{
+        display: none;
+    }
+    .dots{
+        display: none;
+    }
+}
